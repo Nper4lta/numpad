@@ -1,13 +1,10 @@
 # 
-# Kconfig shield
+# Kconfig defconfig
 # 
 # Created: 2025-Sep-13 13:46
 # 
-# Edited: 2025-Sep-13 13:46 
+# Edited: 2025-Sep-13 13:48
 
-if SHIELD_NUMPAD
 
-config ZMK_KEYBOARD
-    default "Numpad"
-
-endif
+config SHIELD_NUMPAD
+    def_bool $(shields_list_contains,numpad)
