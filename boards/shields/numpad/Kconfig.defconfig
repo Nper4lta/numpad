@@ -3,11 +3,11 @@
 # 
 # Created: 2025-Sep-13 13:46
 # 
-# Edited: 2025-Sep-13 13:46 
+# Edited: 2025-Sep-13 14:39
 
 if SHIELD_NUMPAD
 
-config ZMK_KEYBOARD
+config ZMK_KEYBOARD_NAME
     default "Numpad"
 
 endif
