@@ -1,0 +1,13 @@
+# 
+# Kconfig shield
+# 
+# Created: 2025-Sep-13 13:46
+# 
+# Edited: 2025-Sep-13 13:46 
+
+if SHIELD_NUMPAD
+
+config ZMK_KEYBOARD
+    default "Numpad"
+
+endif
